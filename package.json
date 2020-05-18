@@ -1,0 +1,19 @@
+{
+  "name": "auth-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6"
+  }
+}
