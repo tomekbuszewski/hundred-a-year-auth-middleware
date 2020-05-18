@@ -13,7 +13,7 @@ export async function authMiddleware(
       headers: req.headers,
     });
 
-    if (request.status === 200) {
+    if (request.status < 300) {
       return next();
     }
   } catch {
