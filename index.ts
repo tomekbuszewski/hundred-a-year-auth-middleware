@@ -1,7 +1,7 @@
 import axios from "axios";
 import Express from "express";
 
-async function authMiddleware(
+export async function authMiddleware(
   req: Express.Request,
   res: Express.Response,
   next: () => void,
